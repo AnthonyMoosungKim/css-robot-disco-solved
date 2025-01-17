@@ -1,0 +1,120 @@
+@keyframes eye-star {
+  from {
+    transform: rotate(20deg);
+  }
+  to {
+    transform: rotate(290deg);
+  }
+}
+
+@keyframes left-eye {
+  from {
+    opacity: 100%;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes right-eye {
+  from {
+    transform: scale(1);
+    opacity: 100%;
+  }
+  to {
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+
+@keyframes left-ear {
+  from {
+    top: 40%;
+    left: 7%;
+  }
+  to {
+    top: 40%;
+    left: 1%;
+  }
+}
+
+@keyframes right-ear {
+  from {
+    top: 40%;
+    right: 7%;
+  }
+  to {
+    top: 40%;
+    right: 1%;
+  }
+}
+
+@keyframes nose {
+  0% {
+    top: 59%;
+    left: 43%;
+  }
+  25% {
+    top: 39%;
+    left: 43%;
+  }
+  50% {
+    top: 39%;
+    left: 23%;
+  }
+  75% {
+    top: 39%;
+    left: 63%;
+  }
+  100% {
+    top: 39%;
+    left: 43%;
+  }
+}
+
+@keyframes mouth {
+  from {
+    transform: rotate(45deg);
+  }
+  to {
+    transform: rotate(405deg);
+  }
+}
+
+@keyframes left-mouth {
+  from {
+    transform: rotate(-45deg);
+  }
+  to {
+    transform: rotate(315deg);
+  }
+}
+
+@keyframes right-mouth {
+  from {
+    transform: rotate(45deg);
+  }
+  to {
+    transform: rotate(405deg);
+  }
+}
+
+@keyframes teeth {
+  from {
+    top: 57%;
+    left: 1%;
+  }
+  to {
+    top: 57%;
+    right: 3%;
+  }
+}
+
+@keyframes hair-color {
+  from {
+    box-shadow: 30px 30px 0 0 purple;
+  }
+  to {
+    box-shadow: 30px 30px 0 0 black;
+  }
+}
